@@ -9,8 +9,8 @@
 console.log(5 + 2); // 7
 console.log(5 - 2);
 console.log(5 * 2);
-console.log(5 / 2);
-console.log(5 % 2);
+console.log(5 / 2); //나누기
+console.log(5 % 2); // 나머지
 console.log(5 ** 2); //25 es7에 추가가 된것
 console.log(Math.pow(5, 2));
 
