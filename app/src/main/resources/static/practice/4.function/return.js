@@ -6,6 +6,12 @@ function add(a, b) {
 const result = add(1, 2);
 console.log(result);
 
+// 아무것도 반환하지 않는 함수라면 return 을 생략할 수 있다.
+function print(text) {
+  console.log(text);
+}
+print('text');
+
 // return을  함수 중간에 하게되면 함수가 종료됨
 // 사용예: 조건이 맞지 않는 경우 함수 도입부분에서 함수를 일찍이 종료함!
 function print(num) {
