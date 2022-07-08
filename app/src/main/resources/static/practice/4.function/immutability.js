@@ -5,7 +5,7 @@
 function display(num) {
   // 전달받은 숫자를 콘솔에 출력
   // let num = 4;
-  // num =5;
+  // num =5; // ❌❌❌❌❌❌
   console.log(num);
 }
 
@@ -14,7 +14,7 @@ display(value);
 console.log(value);
 
 function displayObj(obj) {
-  obj.name = 'Bob'; // ❌❌❌❌❌❌ 외부로 부터 주어진 인자(오브젝트)를 내부에서 변경
+  obj.name = 'Bob'; // ❌❌❌❌❌❌ 외부로 부터 주어진 인자(오브젝트)를 내부에서 변경 ❌
   console.log(obj);
 }
 const ellie = { name: 'Ellie' };
